@@ -481,9 +481,9 @@ $(document).ready(function () {
     function showModal(version) {
         $('body').css('overflow', 'hidden');
 
-        let dataPath = '../_static/benchmarks_files/OV-benchmark-data.csv';
+        let dataPath = '/ovdoc/_static/benchmarks_files/OV-benchmark-data.csv';
         if (version == 'ovms')
-            dataPath = '../_static/benchmarks_files/OVMS-benchmark-data.csv';
+            dataPath = '/ovdoc/_static/benchmarks_files/OVMS-benchmark-data.csv';
         Papa.parse(dataPath, {
             download: true,
             complete: (result) => renderModal(result, version)
