@@ -11,7 +11,7 @@ const OVdefaultSelections = {
         data: [
             'Intel® Core™ i5-10500TE ',
             'Intel® Core™ i7-1185G7 CPU',
-            'Intel® Core™ i9-10900TE ',
+            'Intel® Core™ i9-10900TE '
         ]
     },
     platformFilters: {name: 'coretype', data: ['CPU']},
