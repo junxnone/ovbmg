@@ -548,7 +548,7 @@ $(document).ready(function () {
         var networkModels = Graph.getNetworkModels(graph.data);
         var ieTypes = Graph.getIeTypes(graph.data);
 
-        fetch('../_static/html/modal.html').then((response) => response.text()).then((text) => {
+        fetch('/ovdoc/_static/html/modal.html').then((response) => response.text()).then((text) => {
 
             // generate and configure modal container
             var modal = $('<div>');
